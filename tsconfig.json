@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "target": "es5",
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "react",
+      "react-dom"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["ui/*"]
+    }
+  },
+  "include": [
+    "ui/*.ts",
+    "ui/*.tsx"
+  ]
+}
